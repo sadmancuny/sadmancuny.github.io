@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Graphics</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    
+    body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        background-color: #000000;
+    }
+
+    .navbar {
+        background-color: #F10057;
+        padding: 10px;
+    }
+    .nav-link {
+        color: rgb(0, 0, 0) !important;
+        font-weight: bold;
+    }
+
+    .navbar-brand img {
+        height: 60px;
+    }
+
+    .search-box {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 5px solid #000000;
+        border-radius: 80px;
+        padding: 3px 20px;
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .search-box input {
+        border: none;
+        outline: none;
+        flex: 2;
+    }
+        
+    .search-box button {
+        background: transparent;
+        border: none;
+        color: #000000;
+        font-size: 1.2rem;
+    }
+
+    .graphics-section {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .graphics-title {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        font-size: 28px;
+        padding: 10px 50px;
+        border-radius: 30px;
+        border: 2px solid #F10057;
+    }
+
+    .card {
+        border: none;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        margin: 20px 0;
+    }
+
+    .card img {
+        object-fit: cover;
+        height: 300px;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+    .home-button {
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        transform: translateY(-60%);
+    }
+    .home-button a {
+        height: 30px;
+        margin: 60px 0;
+        padding: 10px 90px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .home-button a:hover {
+            background-color: #ffffff;
+            color: black;
+        }
+
+    .posters-buttons {
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        transform: translateY(-60%);    
+    }
+
+    .footer {
+            text-align: center;
+            background-color: #000000;
+            padding: 10px;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <a class="navbar-brand" href="ALPONA_Home.html">
+            <img src="ALPONA_LOGO_NEW.jpg" alt="ALPONA Logo">
+        </a>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+
+    </div>
+
+  </nav>
+  
+
+  <!-- Graphics Section -->
+  <div class="graphics-section">
+    <h2 class="graphics-title">GRAPHICS</h2>
+  </div>
+
+  <!-- Grid Layout -->
+  <div class="container">
+
+    <div class="row">
+      
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Sadman_Shakir_Lesson_2_The_Animals.png" alt="Illustrations" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>ILLUSTRATIONS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <a href="ALPONA_CART.html" class="text-decoration-none">
+          <div class="card shadow-sm h-100 border-0">
+            <img src="Sadman_Shakir_Project_3_Draft2.jpg" alt="Posters"  style="object-fit: cover; height: 250px;">
+            <div class="card-body text-center d-flex flex-column justify-content-center">
+              <button class="btn btn-outline-danger mt-2 fw-bold">POSTERS</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Sadman_Shakir_Magazine_Cover.jpg" alt="Magazines" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>MAGAZINES</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    
+    <div class="row">
+      
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Sadman_Shakir_Advertising_PS.jpg" alt="Illustrations" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>GRAPHIC DESIGNS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Sadman_Shakir_New_Yorker_Magazine_MTA Bus_PS_Updated.jpg" alt="Posters" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>CARTOONS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Photo.jpeg" alt="Magazines" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>PHOTO</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    
+    <div class="row">
+      
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Chair Final.jpg" alt="Illustrations" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>3D MODELS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="T-800.jpg" alt="Posters" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>PORTRAITS</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="2D.jpg" alt="Magazines" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>2D ANIMATIONS</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Sadman_Shakir_Book_Cover.jpg" alt="Posters" class="card-img-top">
+          <div class="card-body text-center">
+            <h5>BOOK DESIGN</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>WWW.ALPONA.COM</p>
+  </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
